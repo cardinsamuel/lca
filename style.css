@@ -1,0 +1,152 @@
+div {
+	color: #8D021F;
+/*	border-bottom: 10px solid #8D021F; */
+	height: auto;
+/*	background-color: lightblue;*/
+
+}
+
+body {
+/*	background-color: lightblue; */
+	color: green;
+	margin-top: 5px;
+	font-family: sans-serif;
+	background-image: url('bkg.jpg');
+	background-repeat: repeat;
+}
+
+/*p {
+/*	color: red;
+	margin-left: 30px;
+}*/
+
+h3 {
+	margin-left: 30px;
+	font-weight: bolder;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.test {
+	border: 2px solid green;
+	border-radius: 25px;
+	width: 30%;
+	float: left;
+	margin: 1%;
+	overflow: auto;
+	background-color: white;
+}
+
+
+#logo {
+	max-height: 125px;
+/*	float: left;
+	margin-left: 50px;
+/*	display: block;
+/*	margin: 0 auto; */
+}
+
+.logo {
+/*	background-color: white;
+/*	border-bottom: 10px solid #8D021F; */
+	background-image: url("lighthousebkg.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px auto;
+	font-family: "Garamond", Garamond, serif;
+	color: white;
+	text-shadow:
+  -1px -1px 0 #000,
+   0   -1px 0 #000,
+   1px -1px 0 #000,
+   1px  0   0 #000,
+   1px  1px 0 #000,
+   0    1px 0 #000,
+  -1px  1px 0 #000,
+  -1px  0   0 #000;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.wrapper {
+	margin: 30px auto 0;
+}
+div.centered {
+	width: auto;
+	max-width: 800px;
+	margin: 0 auto;
+	min-width: 600px;
+}
+
+iframe {
+	border: none;
+	width: 800px;
+	height: 450px;
+	display: block;
+	margin: auto;
+}
+
+li {
+	padding: 7px;
+	margin:10px;
+}
+
+li.alert {
+	list-style-image: url('alert2.png');
+	list-style-type: circle;
+	font-size: 18px;
+}
+
+lable {
+	font-weight: bold;
+}
+
+.grouping {
+	border-top: 3px solid #8D021F;
+	border-bottom: 3px solid #8D021F;
+	background-color: white;
+}
+
+.eventimg {
+/*	border-bottom: 1px solid gray;
+	padding-bottom: 5px;*/
+}
+
+.innerimg {
+	max-height: 175px;
+	max-width: 100%;
+	width: 100%;
+/*	height: auto;
+	z-index: -1;*/
+	position: relative;
+	top: -10px;
+	position: relative; left: 50%;
+	transform: translateX(-50%);
+}
+
+.eventtitle {
+	font-size: 17px;
+	padding-left: 5%
+}
+
+.eventdate {
+	padding-left: 5%;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.eventdetails {
+	padding-left: 5%;
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+
+.footer {
+	background-color: lightgray;
+	color: black;
+	font-size: 12px;
+	padding: 5px;
+	margin-bottom: 0;
+}
